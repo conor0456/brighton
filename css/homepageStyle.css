@@ -117,8 +117,12 @@ body
 }
 .endorsement
 {
-    margin-top: 50px;
-    height:100px;
+    margin-top: 10px;
+    height:60px;
+}
+.endorsementRow
+{
+    padding-bottom: 50px;
 }
 #faq
 {
