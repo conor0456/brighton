@@ -53,7 +53,8 @@ html,body
 {
     background-color: #F9F9FA;
     
-    height:90vh;
+    min-height:90vh;
+    height:auto;
     width: 100%;
     color:black;
     margin-bottom: 0px;
