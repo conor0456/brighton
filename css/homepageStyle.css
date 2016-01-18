@@ -317,6 +317,9 @@ q:after
     height:auto;
     /*background-color: #F9F9FA;*/
     text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 
