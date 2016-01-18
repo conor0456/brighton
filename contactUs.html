@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<!-- todaymade -->
+<html lang="en">
+
+<script src="js/jquery-1.11.3.min.js"></script>
+<!-- Bootstrap -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="js/bootstrap.min.js"></script>
+<!-- /Bootstrap -->
+<!-- Custom CSS -->
+<link rel="stylesheet" type="text/css" href="css/homepageStyle.css">
+<!-- /Custom CSS -->
+<link rel="stylesheet" type="text/css" href="css/flip-box.css">
+
+<link rel="shortcut icon" href="css/images/icon.ico" type="image/x-icon">
+<link rel="icon" href="css/images/icon.ico" type="image/x-icon">
+
+<script src="js/parallax.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="Conor D'Arcy">
+
+
+<title>Brighton Investments</title>
+
+
+
+<script>
+
+       
+    
+
+
+$(document).ready
+(
+	function()
+	{
+		var mailString;
+        function updateMailString() {
+            mailString = '?subject=' + encodeURIComponent($('#subject').val())
+                + '&body=' + encodeURIComponent($('#message').val());
+            $('#mail-link').attr('href',  'mailto:drafttheory@gmail.com' + mailString);
+        }
+        $( "#subject" ).focusout(function() { updateMailString(); });
+        $( "#message" ).focusout(function() { updateMailString(); });
+        updateMailString();
+
+    }
+
+);
+</script>
+<div id="navMain" style="opacity:.9;" class="navbar navbar-default navbar-transparent navbar-fixed-top" role="navigation">
+    <div class="navbar-header">
+    	<a href="index.html" class="pull-left"><img src="css/images/brightonHeader.jpg" style="height: auto; width: auto; max-height: 36px; padding-top:7px;"></a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse navbar-menubuilder">
+        <ul class="nav navbar-nav navbar-right "style="margin-right:1%;">
+            <li><a href="aboutUs.html">About Us</a>
+            </li>
+            <li><a href="contactUs.html">Contact Us</a>
+            </li>
+        </ul>
+	</div>
+</div>
+<body>
+	<div class="container-fluid">
+	   
+	    <!-- <div class="row-fluid" style="margin-top:50px;background-color:#F9F9FA;">
+	        <div class="col-md-12">
+	            <div>
+	                <form class="form-horizontal" method="post">
+	                    <fieldset>
+	                        <div class="row title" style="font-size:25px;padding-bottom:20px;">Email us</div>
+
+	                        <div class="form-group">
+	                            <div class="col-sm-offset-2 col-sm-8">
+	                                <input id="subject" name="subject" type="text" placeholder="Subject" class="form-control">
+	                            </div>
+	                        </div>
+
+	                        <div class="form-group">
+	                        	<div class="col-sm-offset-2 col-sm-8">
+	                                <textarea class="form-control" id="message" name="message" placeholder="Enter your massage for us here. We will get back to you within 2 business days." rows="7"></textarea>
+	                            </div>
+	                        </div>
+
+	                        <div class="form-group">
+	                            <div class="col-md-12 text-center">
+	                                <a id="mail-link" class="btn btn-green btn-md">Send</a>
+	                            </div>
+	                        </div>
+	                    </fieldset>
+	                </form>
+	            </div>
+	        </div>
+	    </div>
+	    <div class="row-fluid">
+		    <div class="col-sm-6">
+		    	<div class="row" style="margin-top:30px;font-size:30px;">
+		    		<div class="col-sm-4" style="text-align:center;">
+		    			<span class="glyphicon glyphicon-earphone" style="color:green;" aria-hidden="true"></span>
+		    		</div>
+		    		<div class="col-sm-8">
+		    			(559)3925105
+		    		</div>
+		    	</div>
+		    	<div class="row">
+		    		<div class="col-sm-4">
+		    			<span class="glyphicon glyphicon-envelope" style="font-size:30px;color:green;" aria-hidden="true"></span>
+		    		</div>
+		    	</div>
+		    	<div class="row">
+		    		<div class="col-sm-4">
+		    			<span class="fa-stack fa-lg" style="color:#55ACEE">
+  							<i class="fa fa-square-o fa-stack-2x"></i>
+  							<i class="fa fa-twitter fa-stack-1x"></i>
+						</span>
+		    		</div>
+		    	</div>
+		    	<div class="row">
+		    		<div class="col-sm-4">
+		    			<i class="fa fa-facebook-square fa-lg fa-3x"></i>
+		    		</div>
+		    	</div>
+
+		    	<span style="font-weight:700;font-size:17px;font-family: Helvetica Neue, Helvetica, Arial, sans-serif;">Give us a call</span>
+		    	<span style="font-weight:400;font-size:14px;">(559)3029450<vr</span>
+		    </div>
+		     <div class="col-sm-6">
+		    	  <iframe width="100%" height="450" scrollwheel="false" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=7050%20North%20Fresno%20Street%20%20Suite%20105%20%20Fresno%2C%20CA%2093720&key=AIzaSyDrHhZIPbELfgmrM0AdZxJsVtUwMtNdOR0" allowfullscreen></iframe>
+		    </div>
+	    </div> -->
+	    		<!-- <div class="col-sm-4" style="text-align:center;">
+		    			<span class="glyphicon glyphicon-earphone" style="color:green;" aria-hidden="true"></span>
+		    		</div>
+		    		<div class="col-sm-8">
+		    			(559)3925105
+		    		</div>
+		    	</div>
+		    	<div class="row">
+		    		<div class="col-sm-4">
+		    			<span class="glyphicon glyphicon-envelope" style="font-size:30px;color:green;" aria-hidden="true"></span>
+		    		</div>
+		    	</div>
+		    	<div class="row">
+		    		<div class="col-sm-4">
+		    			<span class="fa-stack fa-lg" style="color:#55ACEE">
+  							<i class="fa fa-square-o fa-stack-2x"></i>
+  							<i class="fa fa-twitter fa-stack-1x"></i>
+						</span>
+		    		</div>
+		    	</div>
+		    	<div class="row">
+		    		<div class="col-sm-4">
+		    			<i class="fa fa-facebook-square fa-lg fa-3x"></i>
+		    		</div>
+		    	</div> -->
+	    <div class="row" style="margin-top:50px;text-align:center;background-color:#F9F9FA;min-height:400px;height:auto;">
+		    <div class="col-sm-4">
+		    	<div style="width:80%;margin-left:10%;margin-top:30px;">
+		    		<span class="fa fa-phone" style="color:#6FB353;font-size:100px;" aria-hidden="true"></span>
+		    		<span class="title" style="font-family:'Adobe Caslon Pro', 'Hoefler Text', Georgia, Garamond;">
+		    			Call us
+		    			<br>
+		    			<span style="font-size:20px;">(559) 162 5723</span>
+		    		</span>
+		    	</div>
+		    </div>
+		    <div class="col-sm-4">
+		    	<div style="width:80%;margin-left:10%;margin-top:30px;">
+		    		<span class="fa fa-envelope" style="color:#6FB353;font-size:100px;" aria-hidden="true"></span>
+		    		<span class="title" style="font-family:'Adobe Caslon Pro', 'Hoefler Text', Georgia, Garamond;">
+		    			Email us
+		    			<br>
+		    			<span style="font-size:20px;">example@gmail.com</span>
+		    			<br>
+		    			<button onclick="alert('when on server, this will be direct email');"class="btn btn-green btn-md">Click Me</button>
+		    		</span>
+		    		</span>
+		    	</div>
+		    </div>
+		     <div class="col-sm-4">
+		    	<div style="width:80%;margin-left:10%;margin-top:30px;">
+		    		<span class="fa fa-home" style="color:#6FB353;font-size:100px;" aria-hidden="true"></span>
+		    		<span class="title" style="font-family:'Adobe Caslon Pro', 'Hoefler Text', Georgia, Garamond;">
+		    			Visit us
+		    			<br>
+		    			<span style="font-size:20px;">7050 N. Fresno St. 93720</span>
+		    	</div>
+		    </div>
+	    </div>
+	  
+	   
+
+
+
+	    <div id="footer" class="row" >
+			<div class="col-sm-8">
+				<div id="footerDisclaimer">
+					The content is developed from sources believed to be providing accurate information. The information in this material is not intended as tax or legal advice. Please consult legal or tax professionals for specific information regarding your individual situation. Some of this material was developed and produced by FMG, LLC, to provide information on a topic that may be of interest. FMG, LLC, is not affiliated with the named representative, broker-dealer, state- or SEC-registered investment advisory firm. The opinions expressed and material provided are for general information, and should not be considered a solicitation for the purchase or sale of any security.	
+					<br>
+					<br>
+					If you don't choose us, you are literally the most uneducated individual in this world. You think your guy is good? We have Dave Ramsey. DAVE FLIPPIN RAMSEY. Do you even know who that is? Thats right, he is famous. So we are famous. We are better than your guy. Remember that when you are 90 and dont have any money for your funeral. Dave warned you, but you didnt listen.
+					<br>
+					<br>
+					Get rekt, bruh
+				</div>
+			</div>
+			<div class="col-sm-2 footerText">
+				<div style="margin-top:50px;color:white;">
+					CONTACT
+					<br>
+					Office: (559) 123 4567
+					<br>
+					Email: example@gmail.com
+					
+					<br>
+					7050 N. Fresno Street
+					<br>
+					Suite 105
+					<br>
+					Fresno, Ca 93720
+
+				</div>
+				<div id="socialDiv">
+					<span class="fa-stack fa-lg" style="margin-left:-4px;">
+						<!-- color:#55ACEE -->
+	  					<i class="fa fa-square-o fa-stack-2x"></i>
+	  					<i class="fa fa-twitter fa-stack-1x"></i>
+					</span>
+					<span class="fa-stack fa-lg" >
+						<!-- color:#55ACEE -->
+	  					<i class="fa fa-square-o fa-stack-2x"></i>
+	  					<i class="fa fa-facebook fa-stack-1x"></i>
+					</span>
+					<span class="fa-stack fa-lg" >
+						<!-- color:#55ACEE -->
+	  					<i class="fa fa-square-o fa-stack-2x"></i>
+	  					<i class="fa fa-linkedin fa-stack-1x"></i>
+					</span>
+				</div>
+			</div>
+			<div class="col-sm-2 footerText">
+				<div style="margin-top:50px;color:white;">
+					LINKS
+					<br>
+					<a href="daveRamsey.html" style="color:white;">Dave Ramsey</a>
+					<br>
+					<a href="aboutUs.html" style="color:white;">About Us</a>
+					<br>
+					<a href="contactUs.html" style="color:white;">Contact Us</a>
+					<br>
+					<a href="index.html" style="color:white;">Home</a>
+
+				</div>
+			</div>
+		</div> 
+	</div>
+</body>
+
+</html>
