@@ -24,10 +24,22 @@ html,body
     font-family: 'Adobe Caslon Pro', 'Hoefler Text', Georgia, Garamond;
 }
 
-.bio
+.bio-left
 {
     padding-top:70px;
     text-align: left;
+    color: #424242;
+    font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+    letter-spacing:0.1em;
+    text-transform: lowercase;
+    font-size: 14pt;
+    font-variant: small-caps;
+
+}
+.bio-right
+{
+    padding-top:70px;
+    text-align: right;
     color: #424242;
     font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
     letter-spacing:0.1em;
@@ -40,8 +52,8 @@ html,body
 #bioDiv
 {
     background-color: #F9F9FA;
-    min-height: 450px;
-    height:auto;
+    
+    height:90vh;
     width: 100%;
     color:black;
     margin-bottom: 0px;
