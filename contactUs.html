@@ -38,15 +38,7 @@ $(document).ready
 (
 	function()
 	{
-		var mailString;
-        function updateMailString() {
-            mailString = '?subject=' + encodeURIComponent($('#subject').val())
-                + '&body=' + encodeURIComponent($('#message').val());
-            $('#mail-link').attr('href',  'mailto:drafttheory@gmail.com' + mailString);
-        }
-        $( "#subject" ).focusout(function() { updateMailString(); });
-        $( "#message" ).focusout(function() { updateMailString(); });
-        updateMailString();
+		
 
     }
 
@@ -69,98 +61,13 @@ $(document).ready
 </div>
 <body>
 	<div class="container-fluid">
-	   
-	    <!-- <div class="row-fluid" style="margin-top:50px;background-color:#F9F9FA;">
-	        <div class="col-md-12">
-	            <div>
-	                <form class="form-horizontal" method="post">
-	                    <fieldset>
-	                        <div class="row title" style="font-size:25px;padding-bottom:20px;">Email us</div>
-
-	                        <div class="form-group">
-	                            <div class="col-sm-offset-2 col-sm-8">
-	                                <input id="subject" name="subject" type="text" placeholder="Subject" class="form-control">
-	                            </div>
-	                        </div>
-
-	                        <div class="form-group">
-	                        	<div class="col-sm-offset-2 col-sm-8">
-	                                <textarea class="form-control" id="message" name="message" placeholder="Enter your massage for us here. We will get back to you within 2 business days." rows="7"></textarea>
-	                            </div>
-	                        </div>
-
-	                        <div class="form-group">
-	                            <div class="col-md-12 text-center">
-	                                <a id="mail-link" class="btn btn-green btn-md">Send</a>
-	                            </div>
-	                        </div>
-	                    </fieldset>
-	                </form>
-	            </div>
-	        </div>
-	    </div>
-	    <div class="row-fluid">
-		    <div class="col-sm-6">
-		    	<div class="row" style="margin-top:30px;font-size:30px;">
-		    		<div class="col-sm-4" style="text-align:center;">
-		    			<span class="glyphicon glyphicon-earphone" style="color:green;" aria-hidden="true"></span>
-		    		</div>
-		    		<div class="col-sm-8">
-		    			(559)3925105
-		    		</div>
-		    	</div>
-		    	<div class="row">
-		    		<div class="col-sm-4">
-		    			<span class="glyphicon glyphicon-envelope" style="font-size:30px;color:green;" aria-hidden="true"></span>
-		    		</div>
-		    	</div>
-		    	<div class="row">
-		    		<div class="col-sm-4">
-		    			<span class="fa-stack fa-lg" style="color:#55ACEE">
-  							<i class="fa fa-square-o fa-stack-2x"></i>
-  							<i class="fa fa-twitter fa-stack-1x"></i>
-						</span>
-		    		</div>
-		    	</div>
-		    	<div class="row">
-		    		<div class="col-sm-4">
-		    			<i class="fa fa-facebook-square fa-lg fa-3x"></i>
-		    		</div>
-		    	</div>
-
-		    	<span style="font-weight:700;font-size:17px;font-family: Helvetica Neue, Helvetica, Arial, sans-serif;">Give us a call</span>
-		    	<span style="font-weight:400;font-size:14px;">(559)3029450<vr</span>
-		    </div>
-		     <div class="col-sm-6">
-		    	  <iframe width="100%" height="450" scrollwheel="false" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=7050%20North%20Fresno%20Street%20%20Suite%20105%20%20Fresno%2C%20CA%2093720&key=AIzaSyDrHhZIPbELfgmrM0AdZxJsVtUwMtNdOR0" allowfullscreen></iframe>
-		    </div>
-	    </div> -->
-	    		<!-- <div class="col-sm-4" style="text-align:center;">
-		    			<span class="glyphicon glyphicon-earphone" style="color:green;" aria-hidden="true"></span>
-		    		</div>
-		    		<div class="col-sm-8">
-		    			(559)3925105
-		    		</div>
-		    	</div>
-		    	<div class="row">
-		    		<div class="col-sm-4">
-		    			<span class="glyphicon glyphicon-envelope" style="font-size:30px;color:green;" aria-hidden="true"></span>
-		    		</div>
-		    	</div>
-		    	<div class="row">
-		    		<div class="col-sm-4">
-		    			<span class="fa-stack fa-lg" style="color:#55ACEE">
-  							<i class="fa fa-square-o fa-stack-2x"></i>
-  							<i class="fa fa-twitter fa-stack-1x"></i>
-						</span>
-		    		</div>
-		    	</div>
-		    	<div class="row">
-		    		<div class="col-sm-4">
-		    			<i class="fa fa-facebook-square fa-lg fa-3x"></i>
-		    		</div>
-		    	</div> -->
-	    <div class="row" style="margin-top:50px;text-align:center;background-color:#F9F9FA;min-height:400px;height:auto;">
+		<div class="row">
+			<div  class=" parallax-window" style="height:500px;" data-parallax="scroll" data-speed="0" data-position="center" data-image-src="css/images/coffee2Overlay.jpg">
+			
+		</div>
+		</div>
+		
+	    <div class="row" style="text-align:center;background-color:#F9F9FA;min-height:400px;height:auto;">
 		    <div class="col-sm-4">
 		    	<div style="width:80%;margin-left:10%;margin-top:30px;">
 		    		<span class="fa fa-phone" style="color:#6FB353;font-size:100px;" aria-hidden="true"></span>
