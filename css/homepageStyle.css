@@ -34,7 +34,7 @@ html,body
     text-transform: lowercase;
     font-size: 14pt;
     font-variant: small-caps;
-    
+
 
 
 }
@@ -55,7 +55,7 @@ html,body
 {
     background-color: #F9F9FA;
     
-    min-height:90vh;
+    min-height:70vh;
     height:auto;
     width: 100%;
     color:black;
@@ -195,7 +195,7 @@ body
 #infoDiv
 {
     /*min-height: 50vh;*/
-    min-height:300px;
+    min-height:500px;
     height:auto;
     background-color: white;
     font-family: 'Didot', 'Didot LT STD', 'Hoefler Text', Garamond, 'Time';
