@@ -238,6 +238,11 @@ p
     width:90%;
     margin-left: 5%;
 }
+#phoneNumber
+{
+    visibility: visible;
+    display: block;
+}
 #pic
 {
     margin-top: 0px;
@@ -403,6 +408,11 @@ q:after
     #ourHistory
     {
         padding-bottom: 20px;
+    }
+    #phoneNumber
+    {
+        visibility: hidden;
+        display: none;
     }
 }
 

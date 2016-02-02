@@ -31,6 +31,11 @@ $(document).ready
 	{
 		$("#daveRamsey").hover(function(){$("#flipTarget").toggleClass("ifb-hover")},function(){$("#flipTarget").toggleClass("ifb-hover")});
 		$('[data-toggle="tooltip"]').tooltip(); 
+		$(".changeGreen").hover(function(){
+    		$(this).toggleClass("btn-green");
+    		}, function(){
+    		$(this).toggleClass("btn-green");
+			});
 
     }
 
@@ -41,35 +46,76 @@ $(document).ready
 
 	<body>
 	<div class="container-fluid">
-	<div id="navMain" style="opacity:none;" class="navbar navbar-default navbar-transparent navbar-fixed-top" role="navigation">
-		    <div class="navbar-header">
-	    	
-	    	<a href="index.html" class="pull-left"><img src="css/images/header.jpg" style="height: auto; width: auto; max-height: 45px; padding-top:5px;"></a>
-	    	
-	        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder">
-		        <span class="sr-only">Toggle navigation</span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-	        </button> 
-	    </div>
-	    <div class="collapse navbar-collapse navbar-menubuilder">
-	    
-	        <ul class="nav navbar-nav navbar-right "style="margin-right:1%;">
-	            <div class="navbar-text"style="padding-top:0px;"><span style="color:#6FB353;padding-right:5px;"class="glyphicon glyphicon-phone-alt"></span>(559)123-4567</div>
-	            <li><a href="aboutUs.html">About Us</a>
-	            </li>
-	            <li><a href="contactUs.html">Contact Us</a>
-	            </li>
-	        </ul>
-		</div>
+<!-- <div id="navMain" style="opacity:none;" class="navbar navbar-default navbar-transparent navbar-fixed-top" role="navigation">
+	    <div class="navbar-header">
+    	
+    	<a href="index.html" class="pull-left"><img src="css/images/header.jpg" style="height: auto; width: auto; max-height: 45px; padding-top:5px;"></a>
+    	
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+        </button> 
+    </div>
+    <div class="collapse navbar-collapse navbar-menubuilder">
+    
+        <ul class="nav navbar-nav navbar-right "style="margin-right:1%;">
+            <div class="navbar-text"style="padding-top:0px;"><span style="color:#6FB353;padding-right:5px;"class="glyphicon glyphicon-phone-alt"></span>(559)123-4567</div>
+            <li><a href="aboutUs.html">About Us</a>
+            </li>
+            <li><a href="contactUs.html">Contact Us</a>
+            </li>
+        </ul>
 	</div>
-		
+</div> -->
+		<div id="navMain" style="opacity:none;" class="navbar navbar-default navbar-transparent navbar-fixed-top" role="navigation">
+	
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		</button>
+		<a href="index.html" class="pull-left"><img src="css/images/header.jpg" style="height: auto; width: auto; max-height: 45px; padding-top:5px;"></a>
+	</div>
+	<div class="collapse navbar-collapse">
+		<ul class="nav navbar-nav pull-right" >
+			<div id="phoneNumber" class="navbar-text"><span style="color:#6FB353;padding-right:5px;" class="glyphicon glyphicon-phone-alt"></span>(559)123-4567</div>
+
+			<li><a href="#">Log in</a></li>
+			
+			<li class="dropdown dropdown-menu-right pull-right" style="height:50px;">
+      			<a href="#" class="dropdown-toggle" data-toggle="dropdown" style="height:50px">
+      				<span class="glyphicon glyphicon-menu-hamburger" style="font-size:20px;">
+      				</span>
+      			</a>
+      			<ul class="dropdown-menu pull-right">
+            		<li class="changeGreen">
+            			<a  href="#" >Home</a>
+            		</li>
+            		<li>
+            			<a class="changeGreen" href="#">Why us?</a>
+            		</li>
+            		<li>
+            			<a class="changeGreen" href="#">Dave Ramsey</a>
+            		</li>
+            		<li>
+            			<a class="changeGreen" href="#">About us</a>
+            		</li>
+            		<li>
+            			<a class="changeGreen" href="#">Contact Us</a>
+            		</li>
+      			</ul>
+   			</li>
+  		</ul>
+	</div>
+</div>
 
 		<div id="header" class=" parallax-window" data-parallax="scroll" data-speed="0" data-position="top top" data-image-src="css/images/familyOverlay62Lower.jpg">
 			<div class="headerText" style="padding-top:200px;">Financial advisors with the<br> heart of a teacher</div>
-	  		<div class="subText">A truly different investing experience that's not just about numbers; It's about people, and people matter. No more being talked down to.  
-			no more investments and fees that you don't understand.</div>
+	  		<div class="subText">A place where the investing experience is not just about numbers, it’s about people, and people matter.</div>
 
 		</div>
 		<div id="infoDiv" style="display: table-cell;vertical-align: middle; padding-top:50px;">
@@ -110,7 +156,7 @@ $(document).ready
 					<div class="flip-box ifb-jq-height  horizontal_flip_left">
 						<div class="ifb-flip-box" id="flipTarget" onclick="$(this).toggleClass('ifb-hover')" >
 							<div class=" ifb-front">
-								<img src="css/images/davePicture.png" style="height:400px;">
+								<img src="css/images/davePictureLower.png" style="height:400px;">
 							</div>
 							<div class="ifb-back">
 								<img src="css/images/elpLogoCut.jpg" style="height:300px;margin-top:35px;">
