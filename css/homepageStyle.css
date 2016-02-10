@@ -54,8 +54,8 @@ html,body
 #bioDiv
 {
     background-color: #F9F9FA;
-    
-    min-height:70vh;
+    padding-bottom: 40px;
+    min-height:400px;
     height:auto;
     width: 100%;
     color:black;
